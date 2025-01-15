@@ -1,0 +1,8 @@
+Q1: Why does the matrix P^T P have a zero eigenvalue? 
+ 
+Because the rank of P^T P is at most N-1 (where N is the number of images), so there are fewer non-zero eigenvalues than the matrix size. This happens because the images are linearly dependent after subtracting the mean.
+
+
+Q2: Why is the matrix P P^T symmetric?
+
+Because P P^T equals its transpose, (P P^T)^T = P P^T. This is a property of matrix multiplication for covariance-like matrices.
